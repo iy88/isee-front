@@ -72,13 +72,13 @@ class Component extends React.Component {
   render() {
     return (
       <div>
-        <div id="bar-cr-top"><span>join room</span></div>
+        <div id="bar-jr-top"><span>join room</span></div>
         <div id="form">
           <input type="text" placeholder="please input rid" value={this.state.rid} onChange={this.ridChangeHandle} /><br />
           <input type="text" placeholder="please input the key" value={this.state.key} onChange={this.keyChangeHandle} /><br />
           <button onClick={this.sub}>submit</button>
         </div>
-        <div id="bar-cr-bottom">
+        <div id="bar-jr-bottom">
           <button className="nav" onClick={() => { this.jump(0) }}>HO</button>
           <button className="nav" onClick={() => { this.jump(1) }}>CR</button>
           <button className="nav">JR</button>
