@@ -55,7 +55,7 @@
 #msg-flow {
   position: absolute;
   width: 100vw;
-  height: calc(100vh -80px);
+  height: calc(100vh - 100px);
   bottom: 40px;
   top: 40px;
   left: 0;

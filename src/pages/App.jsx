@@ -42,6 +42,12 @@ class App extends React.Component {
     this.setState({ ws: new WebSocket('wss://iy88.site:1111') }, () => {
       this.state.ws.onopen = () => {
         this.state.ws.onmessage = this.messageHandle;
+        this.state.ws.onclose = ()=>{
+          window.location.reload();
+        }
+        this.state.ws.onerror = ()=>{
+          window.location.reload();
+        }
         cb ? cb() : '';
       };
     });
