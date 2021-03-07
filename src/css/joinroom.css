@@ -1,0 +1,34 @@
+#bar-jr-top {
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  background: linear-gradient(135deg, #3cff009c, #00a2ffa6);
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+#bar-jr-top span {
+  position: relative;
+  top: 5px;
+  color: rgb(0, 255, 13);
+  font-size: 20px;
+}
+
+#bar-jr-bottom {
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  background: linear-gradient(135deg, #00a2ffa6, #3cff009c);
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#bar-jr-bottom .nav {
+  background: transparent;
+  position: relative;
+  top: 6px;
+  color: rgb(0, 255, 13);
+  margin-right: 5px;
+}

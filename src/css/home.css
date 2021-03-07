@@ -1,0 +1,75 @@
+#bar-home-top {
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  background: linear-gradient(135deg, #3cff009c, #00a2ffa6);
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+#bar-home-top span {
+  position: relative;
+  top: 5px;
+  color: rgb(0, 255, 13);
+  font-size: 20px;
+}
+
+#bar-home-bottom {
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  background: linear-gradient(135deg, #00a2ffa6, #3cff009c);
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#room-list {
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh -80px);
+  bottom: 40px;
+  top: 40px;
+  left: 0;
+  text-align: left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#room-list #room-link-first {
+  background: transparent;
+  color: rgb(0, 255, 13);
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 40px;
+  text-align: left;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin-top: 10px;
+}
+
+#room-list .room-link {
+  background: transparent;
+  color: rgb(0, 255, 13);
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 40px;
+  text-align: left;
+  border-bottom: 2px solid;
+}
+
+#room-list .room-link:active,
+#room-list #room-link-first:active {
+  color: rgb(0, 102, 255);
+}
+
+#bar-home-bottom .nav {
+  background: transparent;
+  position: relative;
+  top: 6px;
+  color: rgb(0, 255, 13);
+  margin-right: 5px;
+}

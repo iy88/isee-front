@@ -1,0 +1,98 @@
+#bar-room-top {
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  background: linear-gradient(135deg, #3cff009c, #00a2ffa6);
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+#bar-room-top #title {
+  position: relative;
+  top: 5px;
+  color: rgb(0, 255, 13);
+  font-size: 20px;
+}
+
+#bar-room-top #back {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  color: rgb(0, 247, 255);
+  background: none;
+
+}
+
+#bar-room-bottom {
+  position: absolute;
+  width: 98vw;
+  height: 40px;
+  background: linear-gradient(135deg, #00a2ffa6, #3cff009c);
+  left: 0;
+  bottom: 3vh;
+}
+
+#bar-room-bottom #msg {
+  height: 20px;
+  width: 75vw;
+  position: relative;
+  top: 6px;
+  left: 1vw;
+  border: 0;
+}
+
+#bar-room-bottom #send {
+  position: absolute;
+  height: 25px;
+  width: 60px;
+  border-radius: 30px 30px 30px 30px;
+  top: 7px;
+  right: 1vw;
+  padding: 0;
+}
+
+#msg-flow {
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh -80px);
+  bottom: 40px;
+  top: 40px;
+  left: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-left: 5vw;
+  /* margin-right: 5vw; */
+}
+
+#msg-flow #self,#msg-flow #other {
+  margin-top: 10px;
+}
+
+#msg-flow #other #un,
+#msg-flow #self #un {
+  font-size: 15px;
+  color: rgb(136, 136, 136);
+  margin: 0;
+}
+
+#msg-flow #other #msg,
+#msg-flow #self #msg {
+  margin: 0;
+  width: 90vw;
+  font-size: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+
+#msg-flow #self #un {
+  text-align: right;
+  position: relative;
+  right: 12vw;
+}
+
+#msg-flow #self #msg {
+  position: relative;
+  left: 1vw;
+}
