@@ -30,14 +30,14 @@
   height: 40px;
   background: linear-gradient(135deg, #00a2ffa6, #3cff009c);
   left: 0;
-  bottom: 3vh;
+  bottom: 0vh;
 }
 
 #bar-room-bottom #msg {
   height: 20px;
-  width: 75vw;
-  position: relative;
-  top: 6px;
+  width: 76vw;
+  position: absolute;
+  top: 8px;
   left: 1vw;
   border: 0;
 }
